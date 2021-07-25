@@ -15,7 +15,7 @@ import { ToastContainer, Zoom } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const HomePage = lazy(() =>
-  import("./pages/homePage" /* webpackChunkName: 'home-page' */)
+  import("./pages/homePage" /* WebpackChunkName: 'home-page' */)
 );
 
 const NavBar = lazy(() =>
